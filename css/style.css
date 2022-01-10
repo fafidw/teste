@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 62.5%;
+}
+
+body {
+	background-color: white;
+  	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 17px;
+}
+
+a:hover {
+	background-color: rgb(88, 88, 71);
+	width: 100%;
+	opacity: 0.8;
+  }
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#primeiro-link a {
+	color: white ;
+}
+
+ul {
+	font-size: 20px;
+}
+
+ul li {
+	font-size: .8em;
+	font-size: 1.6rem;
+	width: 80%;
+	height: 3rem;
+}
+
+td , th {
+	font-size: 15px;
+	width: 80%;
+	height: 3rem;
+	border: 1px solid black;
+	border-radius: 10px;
+	color: black;
+	padding: 15px;
+	text-align: center;
+}
+
+
+p {
+	font-size: 1.6rem;
+	width: 60%;
+	text-align: justify;
+}
+
+
+
+h2 {
+	font-size: 3rem;
+	height: 3rem;
+}
+
+h3 {
+	font-size: 20px;
+	width: 80%;
+	height: 3rem;
+	color:black
+}
+
+.navegacao li {
+	border-bottom: 1px solid black;
+	padding: 1rem;
+}
+
+.navegacao a {
+	color: black;
+	display: block;
+	width: 100%;
+	margin-bottom: .5rem;
+}
+
+form {
+	padding: 0px;
+}
+
+form div {
+	border: 0;
+	margin: 2rem 0rem;
+	padding: 0rem;
+
+}
+
+label {
+	margin-bottom: 0rem;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+
+header {
+	background: black;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+}
+
+h2 {
+	color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%; 
+  padding: 0px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+article {
+  float: left;
+  width: 70%;
+
+}
+
+/* Clear floats after the columns */
+section::after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+}
+

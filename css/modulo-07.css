@@ -1,0 +1,138 @@
+@import url('tabela.css');
+
+/*
+	Herança
+	1.Sobreposição/Sobrescreve
+
+
+*/
+
+html {
+	font-family: sans-serif;
+	color: #00f;
+}
+
+p {
+	color: #f22;
+}
+
+header {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+header h2 {
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #FF0;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 1.5rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+a {
+	color: #555555;
+	text-decoration: none;
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active{
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	text-decoration: underline;
+	background: #eee;
+}
+
+h2:hover {
+	color: #888;
+}
+
+html {
+	font-family: Times New Roman;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+ul {
+	font-weight: .5rem;
+	margin-left: .5rem;
+}
+
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h3 {
+	font: italic bold 1.2rem/2 sans-serif;
+}
+
+body {
+	background: ;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.75);
+}
+
+p {
+	color: blue;
+	color: #034589;
+}
+
+header,
+footer {
+	background-color: #034589;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	backgroud-color: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 1.4rem;
+}
+
+
+.navegacao li:hover {
+	background-color: rgba(150, 150, 200, 0.5);
+	color: #333333;
+}
+
